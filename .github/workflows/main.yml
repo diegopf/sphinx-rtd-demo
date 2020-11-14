@@ -42,7 +42,7 @@ jobs:
         with:
           push: true
           context: .
-          tags: diegopf/sphinx-rtd-demo:latest
+          tags: ghcr.io/diegopf/sphinx-rtd-demo:latest
       -
         name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
